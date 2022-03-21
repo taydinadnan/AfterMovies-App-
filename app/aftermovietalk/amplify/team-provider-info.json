@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aftermovie-staging-135102-authRole",
+      "UnauthRoleArn": "arn:aws:iam::757588800784:role/amplify-aftermovie-staging-135102-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::757588800784:role/amplify-aftermovie-staging-135102-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-aftermovie-staging-135102-deployment",
+      "UnauthRoleName": "amplify-aftermovie-staging-135102-unauthRole",
+      "StackName": "amplify-aftermovie-staging-135102",
+      "StackId": "arn:aws:cloudformation:us-east-1:757588800784:stack/amplify-aftermovie-staging-135102/f26fc640-a91d-11ec-b450-0a02909bf4fb",
+      "AmplifyAppId": "d2zrv23ceppk43"
+    }
+  }
+}
