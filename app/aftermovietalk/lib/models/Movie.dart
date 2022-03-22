@@ -60,14 +60,13 @@ class Movie extends Model {
       String? latestMessageTime,
       String? title}) {
     return Movie._internal(
-      id: id == null ? UUID.getUUID() : id,
-      image: image!,
-      overview: overview!,
-      rating: rating!,
-      latestMessage: latestMessage!,
-      latestMessageTime: latestMessageTime!,
-      title: title!,
-    );
+        id: id == null ? UUID.getUUID() : id,
+        image: image,
+        overview: overview,
+        rating: rating,
+        latestMessage: latestMessage,
+        latestMessageTime: latestMessageTime,
+        title: title);
   }
 
   bool equals(Object other) {

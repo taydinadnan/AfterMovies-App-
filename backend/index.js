@@ -6,7 +6,7 @@ require('isomorphic-fetch');
 
    // api params
    const movieApiParams = {
-       url: 'apikey',
+       url: 'cdff983002cbdf7cf786eb2a2d9ec391',
        headers: { 'Content-Type': 'application/json' },
       
    };

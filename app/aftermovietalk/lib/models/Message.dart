@@ -50,7 +50,7 @@ class Message extends Model {
       this.fromUsername});
 
   factory Message(
-      {required String id,
+      {String? id,
       String? message,
       String? fromId,
       String? timestamp,
